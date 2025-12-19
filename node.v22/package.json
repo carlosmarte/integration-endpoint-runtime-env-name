@@ -1,0 +1,25 @@
+{
+  "name": "@thinkeloquent/integration-endpoint-runtime-env-name",
+  "version": "0.0.1",
+  "description": "Environment name builder with conditional logic for runtime environment detection",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "environment",
+    "conditional",
+    "runtime",
+    "config",
+    "builder"
+  ],
+  "author": "ThinkEloquent",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
